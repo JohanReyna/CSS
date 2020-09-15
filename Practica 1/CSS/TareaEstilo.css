@@ -1,0 +1,32 @@
+body{
+    background: #90dd92;
+    margin: 3;
+    padding: 0;
+    
+}
+body{ color: rgb(0, 0, 235);
+    
+}
+
+h1{
+    color: rgb(228, 5, 5);
+}
+
+h2{
+    color: rgb(105, 18, 18);
+}
+ul > li > p {
+    color: rgb(3, 117, 3);
+}
+span{
+    color: rgb(0, 0, 235);
+}
+.Hipertexto{
+    font-size: 30px;
+    font-weight: 100;
+}
+.Marca{
+    margin: auto;
+    color: #ffffff;
+    background: black;
+}
