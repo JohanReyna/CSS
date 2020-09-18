@@ -1,0 +1,51 @@
+h1{
+    color: orangered;
+    text-decoration: underline;
+}
+
+.Palabrasubrayada{
+    color: orangered;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.Parrafo {
+    color: rgb(0, 99, 248)
+}
+
+.Parrafo2 {
+    color: rgb(0, 0, 180);
+    background: rgb(255, 240, 220);
+    font-style: oblique;
+}
+.Parrafo3 {
+    color: yellow;
+    background: black;
+}
+
+.parrafo4{
+    color: yellow;
+    background: black;
+}
+
+.Text1{
+    color: black;
+    font-weight: 900;
+}
+
+.text2{
+    color: black;
+    font-weight: 900;
+}
+
+.text3{
+    color: orangered;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.text4{
+    color: orangered;
+    text-decoration: underline;
+    font-size: 20px;
+}
