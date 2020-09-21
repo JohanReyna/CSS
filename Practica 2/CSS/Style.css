@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap'); /*se importa una direccion para buscar la fuente de la pagian de google*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu&display=swap'); /*se importa una direccion para buscar la fuente de la pagian de google*/
 
 *{
     margin: 0;
@@ -15,7 +15,7 @@ header{
 }
 
 h1{
-    font-family: "Architects Daughter", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     position: absolute;
     top: 50px;
     left: 50px;
@@ -25,7 +25,7 @@ h1{
 
 #fuente{
     color: green;
-    font-family:"Indie flower" sans-serif;
+    font-family:"Anton" sans-serif;
     font-size: 40px;
     text-transform: uppercase; /*text-transform se utiliza para cambiar el texto*/
     font-style: initial;
@@ -35,36 +35,94 @@ article {
     background: lightgreen;
     width: 85%;
     height: 80vh;
-    margin: 1px 5px;
-    border: 1px solid #ffffff;
-    /*position: absolute;*/
-    float: left;/*Se utiliza para mover una etiqueta a la derecha*/
+    margin: 1px 2px;
+    border: 2px solid #ffffff;
+    position: relative;
+    float: left;
+   
 }
 
 article > div > h2 {
     font-size: 20px;
     font-family: sans-serif;
-    margin: 4px;
+    margin: 3px 3px;
     text-transform: uppercase; /*para que el texto se vea en mayusculas*/
 }
 
 article > div > #subtitulo2 {
-    margin-left: 57%;
-    clear: both;
-    margin-top: -10px;
+    position: absolute;
+    left: 55%;
+    bottom: 91%;
 }
 
 article > div > #subtitulo3 {
-    margin-top: 20%;
+    position: absolute;
+    top: 50%;
 }
 
-article > div > #parrafo1 {
+article > div > p {
     width: 42%;
     height: 50%;
     text-align: justify;
     text-transform: uppercase;
-    margin: 5px 5px;
-    float: left;
+    font-size: 17px;
 }
 
-article > div > #parrafo2
+article > div > #parrafo2{
+    position: absolute;
+    left: 53%;
+    bottom: 41%;
+}
+
+article > div > #parrafo3 {
+    position: absolute;
+    top: 55%;
+}
+
+img{
+    margin-top: 10px 10px;
+    width: 46vw;
+    height: 50vh;
+    position: absolute;
+    left: 43%;
+    top: 33%;
+}
+
+aside{
+    width: 10%;
+    height: 60vh;
+    float: left;
+    /*position: relative;*/
+}
+
+#caja1{
+    border: 2px solid #ffffff;
+    background: lightgreen;
+    width: 142%;
+    height: 20vh;
+}
+
+#caja2{
+    border: 2px solid #ffffff;
+    background: #cccccc;
+    width: 142%;
+    height: 70vh;
+}
+
+footer{
+    clear: both;
+    width: 85%;
+    height: 10vh;
+    background: lightgreen;
+    margin: 2px 2px;
+    border: 1px solid #ffffff;
+
+}
+h6{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 20px;
+    font-style: italic;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Merriweather+Sans:wght@500&display=swap');
+
+h1{
+    font-family: "Baskervville" sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.Letras{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 20px;
+    font-family: "BaskerVille" sans-serif;
+    text-transform: uppercase;
+}
+
+.LetrasSub{
+    font-size: 25px;
+}
+
+.DatosP{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Formacion{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Exp{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Negritas{
+    font-weight: 900;
+}
