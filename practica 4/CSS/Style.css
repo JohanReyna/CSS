@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fondo{
+    width: 100%;
+    height: 100vh;
+    background: #2d0292;
+    margin: auto;
+    position: relative;
+}
+
+#circulo{
+    width: 80px;
+    height: 80px;
+    background: #e100ff;
+    position: absolute;
+    border-radius: 80%; /*Se utiliza para redondear un div, cambiar de forma un div */
+    animation: pelota 10s infinite linear;
+}
+
+@keyframes pelota {
+    0%{
+        background: #e100ff;
+        left: 0%;
+        top: 0%;
+    }
+
+    5%{
+        background: #e100ff;
+        top: 10%;
+        left: 0%;
+    }
+
+    10%{
+        background: #e100ff;
+        top: 20%;
+        left: 0%;
+    }
+
+    15%{
+        background: #e100ff;
+        top: 30%;
+        left: 0%;
+    }
+
+    20%{
+        background: #e100ff;
+        top: 40%;
+        left: 0%;
+    }
+
+    25%{
+        background: #e100ff;
+        top: 50%;
+        left: 0%;
+    }
+
+    30%{
+        background: #e100ff;
+        top: 60%;
+        left: 0%;
+    }
+
+    35%{
+        background: #e100ff;
+        top: 70%;
+        left: 0%;
+    }
+
+    40%{
+        background: #e100ff;
+        top: 80%;
+        left: 0%;
+    }
+    
+    45%{
+        background: #e100ff;
+        top: 90%;
+        left: 0%;
+    }
+
+    50%{
+        background: #e100ff;
+        top: 77%;
+        left: 10%;
+    }
+
+    55%{
+        background: #e100ff;
+        top: 67%;
+        left: 20%;
+    }
+
+    60%{
+        background: #e100ff;
+        top: 57%;
+        left: 30%;
+    }
+
+    65%{
+        background: #e100ff;
+        top: 47%;
+        left: 40%;
+    }
+
+    70%{
+        background: #e100ff;
+        top: 57%;
+        left: 50%;
+    }
+
+    75%{
+        background: #e100ff;
+        top: 67%;
+        left: 60%;
+    }
+
+    80%{
+        background: #e100ff;
+        top: 77%;
+        left: 70%;
+    }
+
+    85%{
+        background: #e100ff;
+        top: 87%;
+        left: 80%;
+    }
+
+    90%{
+        background: #e100ff;
+        top: 77%;
+        left: 87%;
+    }
+
+    95%{
+        background: #e100ff;
+        top: 67%;
+        left: 92%;
+    }
+
+    100%{
+        background: #e100ff;
+        top: 57%;
+        left: 94%;
+    }
+}
