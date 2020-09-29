@@ -1,0 +1,249 @@
+*{ /*para seguir mantenitendo el diseño aun asi se habra en otro navegador*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #351fb1;
+    text-transform: capitalize; /*capitalize es para poner la primera letra en mayuscula*/
+    margin-top: 1%;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.cuadromorado{ /*siempre que veamos un cuadrado hay que poner width & height para realizarlo*/
+    width: 20%;
+    height: 30vh;
+    background: #35012e;
+    border: 2px solid #000000;
+}
+
+.cuadromorado2 {
+    width: 70%;
+    height: 30vh;
+    background: #35012e;
+    border: 2px solid #000000;
+}
+
+/*FLEX-START...........................*/
+
+.cuadromorado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start; 
+}
+
+.cuadromorado > .flex-start > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background-color: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background-color: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-start > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background-color: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+/*FLEX-END............................*/
+
+.cuadromorado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.cuadromorado > .flex-end > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background-color: #f35c04;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background-color: #f35c04;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background-color: #f35c04;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .flex-end > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background-color: #f35c04;
+    margin: 47% 1%;
+    border: 2px solid #000000;
+}
+
+/*CENTER.........................*/
+
+.cuadromorado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.cuadromorado > .center > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: #f35c04;
+    margin: 23% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .center > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+/*STRETCH.......................*/
+
+.cuadromorado > .stretch{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.cuadromorado > .stretch > .cuadro1{
+    width: 23%;
+    height: 225px;
+    background: #f35c04;
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch > .cuadro2{
+    width: 23%;
+    height: 225px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch > .cuadro3{
+    width: 23%;
+    height: 225px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado > .stretch > .cuadro4{
+    width: 23%;
+    height: 225px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+/*BASELINE......................*/
+
+.cuadromorado2 > .baseline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.cuadromorado2 > .baseline > .cuadro1{
+    width: 23%;
+    height: 70px;
+    background: #f35c04;
+    margin: 1% 1%;
+    border: 2px solid #000000;
+}
+
+.cuadromorado2 > .baseline > .cuadro2{
+    width: 23%;
+    height: 25px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado2 > .baseline > .cuadro3{
+    width: 23%;
+    height: 50px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.cuadromorado2 > .baseline > .cuadro4{
+    width: 23%;
+    height: 40px;
+    background: #f35c04;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}

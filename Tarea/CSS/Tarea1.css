@@ -1,0 +1,119 @@
+body{
+    width: 50%;
+    height: 50%;
+    margin: 5% 5%;
+}
+
+h2{
+    color: indigo;
+}
+
+.flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+    background: indigo;
+}
+
+.flex-start > .bigbox{ 
+    width: 50px;
+    height: 20px;
+    background: orange;
+    margin: 10px;
+    padding: 20px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background: orange;
+    margin: 10px;
+    padding: 20px;
+}
+
+.flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    background: indigo;
+}
+
+.flex-end > .bigbox{
+    width: 50px;
+    height: 20px;
+    background: orange;
+    margin: 10px;
+    padding: 20px;
+}
+
+.center{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background: indigo;
+}
+
+.center > .bigbox{
+    width: 50px;
+    height: 20px;
+    background: orange;
+    margin: 10px;
+    padding: 20px;
+}
+
+.space-between{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background: indigo;
+}
+
+.space-between > .bigbox{
+    width: 50px;
+    height: 20px;
+    background: orange;
+    margin: 10px;
+    padding: 20px;
+}
+
+.space-around{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    background: indigo;
+}
+
+.space-around > .bigbox{
+    width: 50px;
+    height: 20px;
+    background: orange;
+    margin: 10px;
+    padding: 20px;
+}
+
+.space-evenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    background: indigo;
+}
+
+.space-evenly > .bigbox{
+    width: 50px;
+    height: 20px;
+    background: orange;
+    margin: 10px;
+    padding: 20px;
+}

@@ -7,7 +7,6 @@ body{
 h1{
     text-align: center;
     text-transform: uppercase;
-    color: #5f7709;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -16,14 +15,30 @@ h1::first-letter{
     font-style: italic;
 }
 
-.column{
+.flex{
     display: flex;
-    flex-direction: column;
-    /*justy content y align items center se alinean los cuadros de manera central*/
-    /*justify-content: center;
-    align-items: center;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.column > div{
+
+.flex > .columna > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flex > .columnreverse{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.flex > .columnreverse > div{
     background: #000000;
     margin: 10px;
     padding: 20px;
@@ -31,21 +46,162 @@ h1::first-letter{
     height: 30px;
     color: #ffffff;
     font-size: 20px;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.filareversa{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.flexrow > .fila > div {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flexrow > .filareversa > div {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.subtitulo{
     text-align: center;
 }
 
-.columnreverse{
+.center{
     display: flex;
-    flex-direction: column-reverse;
-    
+    flex-flow: row wrap;
+    justify-content: center;
 }
-.columnreverse > div{
-    background: #000000;
-    margin: 10px;
-    padding: 20px;
+
+.justifycontent > .center > div{
     width: 30px;
     height: 30px;
+    background: #000000;
     color: #ffffff;
+    margin: 10px;
+    padding: 20px;
     font-size: 20px;
-    text-align: center;
+}
+.flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.justifycontent > .flex-start > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#subtitulo2{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.flexend{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+/*este apartado es para dar diseño a los cuadro*/
+.flexend > div {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+.spacearound{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.spacearound > div {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spacebetween{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.spacebetween > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spaceevenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.spaceevenly > div{
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.itemscenter{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.itemscenter > div {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
 }
