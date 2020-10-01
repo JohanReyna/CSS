@@ -30,6 +30,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .flex > .columnreverse{
@@ -46,6 +48,8 @@ h1::first-letter{
     height: 30px;
     color: #ffffff;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .flexrow{
@@ -75,6 +79,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .flexrow > .filareversa > div {
@@ -85,6 +91,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .subtitulo{
@@ -105,6 +113,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 .flex-start{
     display: flex;
@@ -120,6 +130,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 #subtitulo2{
@@ -141,6 +153,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 .spacearound{
     display: flex;
@@ -156,6 +170,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .spacebetween{
@@ -172,6 +188,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .spaceevenly{
@@ -188,6 +206,8 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .itemscenter{
@@ -204,4 +224,6 @@ h1::first-letter{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
+    text-align: center;
+    line-height: 30px;
 }
